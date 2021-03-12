@@ -73,7 +73,7 @@ input[type="submit"]:active {
 
     </style>
 </head>
-<body style=background-color:#ffe6ff >
+<body style=background-color:#73b0f5 >
 
 	<%
 		response.setHeader("cache-control", "no-cache , no-store , must-revalidate");
@@ -88,10 +88,10 @@ input[type="submit"]:active {
 	%>
 	<div align="center">
 
-		<h1>ABC Bank</h1>
+		<h1>Retail Bank</h1>
 		<div id="login-box">
 
-			<h1 class="signup">Customer Account Creation</h1>
+			<h1 class="signup">New Customer Account</h1>
 			<br>
 			<form:form action="/finishedAccountCreation" method="post"
 				modelAttribute="account">
@@ -112,7 +112,7 @@ input[type="submit"]:active {
 				<input type="submit" name="signup_submit" value="Create" />
 
 			</form:form>
-			<p> <a href="/dashboard?custmsg=Customer Created">Go Back</a> and create account Later....</p>
+			<p> <a href="/dashboard?custmsg=Customer Created">Go Back</a></p>
 		</div>
 
 
