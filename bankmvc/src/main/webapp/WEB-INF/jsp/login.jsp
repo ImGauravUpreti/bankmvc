@@ -40,11 +40,11 @@
                   <input name="login" id="login" class="btn btn-block login-btn mb-4" type="submit" value="Login"/>
                 </form:form>
                 <p id="errorMessage">${msg}</p>
-                <a href="#!" class="forgot-password-link">Forgot password?</a>
-                <p class="login-card-footer-text">Don't have an account? <a href="#!" class="text-reset">Register here</a></p>
+                <!-- <a href="#!" class="forgot-password-link">Forgot password?</a> -->
+                 <p class="login-card-footer-text"></p> <!-- Don't have an account? <a href="#!" class="text-reset">Register here</a> -->
                 <nav class="login-card-footer-nav">
-                  <a href="#!">Terms of use.</a>
-                  <a href="#!">Privacy policy</a>
+                  <!--  <a href="#!">Terms of use.</a> -->
+                  <!-- <a href="#!">Privacy policy</a>  --> 
                 </nav>
             </div>
           </div>
